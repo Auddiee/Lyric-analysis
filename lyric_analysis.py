@@ -65,7 +65,7 @@ def main():
         input_option = input("would you like to search  for a song or artist? (y/n): ")
         try:
             if input_option not in ["y", "n"]:
-                raise ValueError("Invalid input. Please enter 'y' or 'n', stop acting like a ozwor and enter the right input.")
+                raise ValueError("Invalid input. Please enter 'y' or 'n'.")
         except ValueError as e:
             print(e)
             continue
@@ -78,7 +78,7 @@ def main():
         input_option = input("Would you like to search for a song or Album : ")
         try:
             if input_option not in ["Album", "song"]:
-                raise ValueError("Invalid input. Please enter 'Album' or 'song', stop acting like a ozwor and enter the right input.")
+                raise ValueError("Invalid input. Please enter 'Album' or 'song'")
         except ValueError as e:
             print(e)
             continue
