@@ -135,7 +135,7 @@ def main():
     result = input("would you like to see the data and graph (y/n): ")
     try:
         if result not in ["y","n"]:
-            raise ValueError("Invalid input. Please enter 'y' or 'n', stop acting like a ozwor and enter the right input.")
+            raise ValueError("Invalid input. Please enter 'y' or 'n'")
     except ValueError as e:
         print(e)
 
