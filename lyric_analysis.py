@@ -144,7 +144,7 @@ def main():
         print(df)
         album_totals = df.groupby('Album')['Count'].sum()
         album_totals.plot(kind='bar', color='black', edgecolor='white')
-        plt.title('Total "ikebe" mentions per album')
+        plt.title('Total Word mentions per album')
         plt.xlabel('Album')
         plt.ylabel('Total Count')
         plt.xticks(rotation=45, ha='right')
